@@ -9,6 +9,7 @@
 }
 @media (max-width:700px) {
      .social {
+        margin-top:4px;
         display: inline-block;
         width: 29px;
         height: 29px;
