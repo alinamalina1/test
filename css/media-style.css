@@ -55,21 +55,6 @@
     .site-content_user__text {
         font-size: 12px;
     }
-    .social {
-        display: inline-block;
-        width: 20px;
-        height: 20px;
-        background: url("../img/sprite-social-mobile.png");
-    }
-    .site-content_contacts__social-fb {
-        background-position: -21px 0;
-    }
-    .site-content_contacts__social-ok {
-        background-position: -41px 0;
-    }
-    .site-content_contacts__social-ut {
-        background-position: -62px 0;
-    }
     .site-footer .payment-block .img {
         width: 33px;
         height: 20px;
