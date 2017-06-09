@@ -1,0 +1,149 @@
+@media (max-width:400px){
+    .article .btn{
+        margin-top: 130px;
+    }
+    .wrap-button .article__img{
+        top: 520px;
+        left: 190px;
+    }
+}
+@media (max-width:700px) {
+    .sidebar{
+        position: fixed;
+        left: -250px;
+        width: 250px;
+        height: 100%;
+    }
+    .sidebar .active{
+        left:0;
+    }
+    .site-content_contacts {
+    }
+    .site-content_user {
+        height: 35px;
+    }
+    .article{
+        margin-top: 50px;
+    }
+    .article__text{
+        font-size: 13px;
+    }
+    .article__title{
+        font-size: 25px;
+    }
+    .article__img{
+        top: 390px;
+        left: 220px;
+        width: 100px;
+        height: 95px;
+        background: url("../img/back-call-mobile.png") no-repeat;
+    }
+    .article .btn {
+        width: 140px;
+        height: 32px;
+        border-radius: 0;
+        position: absolute;
+        top: 422px;
+        left: 20px;
+    }
+    .article .btn-text{
+        font-size: 14px;
+    }
+    .site-footer {
+        height: 27px;
+    }
+    .site-content_user__text {
+        font-size: 12px;
+    }
+    .social {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        background: url("../img/sprite-social-mobile.png");
+    }
+    .site-content_contacts__social-fb {
+        background-position: -21px 0;
+    }
+    .site-content_contacts__social-ok {
+        background-position: -41px 0;
+    }
+    .site-content_contacts__social-ut {
+        background-position: -62px 0;
+    }
+    .site-footer .payment-block .img {
+        width: 33px;
+        height: 20px;
+        background: url("../img/sprite-payment-mobile.png") no-repeat;
+    }
+    .site-footer .payment-block .payment-block__visa {
+        width: 33px;
+        height: 20px;
+    }
+    .site-footer .payment-block .payment-block__card {
+        background-position-x: -35px;
+    }
+    .site-footer .payment-block .payment-block__kivi {
+        background-position-x: -70px;
+    }
+    .site-footer .payment-block .payment-block__web-money {
+        background-position-x: -102px;
+    }
+    .site-footer .payment-block .payment-block__ya {
+        background-position-x: -135px;
+    }
+}
+@media (max-width:1000px) {
+    .sidebarList .sidebarList__text{
+        font-size: 13px;
+    }
+    .sidebarList .sidebarList__title{
+        font-size: 14px;
+    }
+    .site-content_contacts{
+        width: 200px;
+        height: 70px;
+    }
+    .tel{
+        padding-top: 10px;
+        font-size: 20px;
+    }
+}
+@media  (max-width: 1300px){
+    .site-header .logo{
+        position: absolute;
+        top: 3px;
+        left: 10px;
+        width: 75px;
+        height: 116px;
+        background: url("../img/logo-md.png");
+    }
+    .navbar .logo-sm{
+        width: 250px;
+        height: 50px;
+        background: url("../img/vunderkind-md.png");
+    }
+    .navbar-nav{
+        position: absolute;
+        right:10px;
+    }
+    .site-content_user__text:first-child {
+        margin-left: 40px;
+    }
+}
+@media (max-width:1700px){
+    .navbar-nav__link{
+        font-size: 18px;
+        padding-right: 5px;
+    }
+    .navbar-nav li a{
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    .site-content_contacts__wrap{
+        position: static;
+        margin-left: 20px;
+    }
+    .site-content_contacts{
+        padding-top: 0;
+    }
+}

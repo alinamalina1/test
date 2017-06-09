@@ -1,0 +1,20 @@
+.navbar-default {
+    background-color: #249a00;
+    border-color: #e7e7e7;
+}
+.navbar {
+    position: relative;
+    min-height: 50px;
+    border: 1px solid #249a00;
+}
+.dropdown-menu{
+    font-size: 18px;
+}
+.navbar-fixed-bottom{
+
+}
+@media (min-width: 768px) {
+    .navbar {
+        border-radius: 0;
+    }
+}
