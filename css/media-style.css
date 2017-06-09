@@ -8,6 +8,21 @@
     }
 }
 @media (max-width:700px) {
+     .social {
+        display: inline-block;
+        width: 29px;
+        height: 29px;
+        background: url("../img/sprite-social-mobile.png");
+    }
+    .site-content_contacts__social-fb {
+        background-position: -32px 0;
+    }
+    .site-content_contacts__social-ok {
+        background-position: -62px 0;
+    }
+    .site-content_contacts__social-ut {
+        background-position: -92px 0;
+    }
     .sidebar{
         position: fixed;
         left: -250px;
