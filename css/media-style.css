@@ -93,6 +93,9 @@
     }
 }
 @media (max-width:1000px) {
+     .button{
+        display: none;
+    }
     .sidebarList .sidebarList__text{
         font-size: 13px;
     }
